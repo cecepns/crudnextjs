@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "knex": "knex"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "knex": "^0.21.16",
+    "mysql": "^2.18.1",
     "next": "10.0.5",
+    "postcss": "^8.2.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.32.5",
+    "tailwindcss": "^2.0.2"
   }
 }
